@@ -1,1 +1,5 @@
-{"name":"liberusoftware/module-crm-lead-capture","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\LeadCapture\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\LeadCapture\\LeadCaptureServiceProvider"]},"liberu":{"name":"crm-lead-capture"}}}
+{"name":"liberusoftware/module-crm-lead-capture","type":"liberu-module","autoload":{"psr-4":{"Liberu\\CRM\\LeadCapture\\":"src/"}},"extra":{"laravel":{"providers":["Liberu\\CRM\\LeadCapture\\LeadCaptureServiceProvider"]},"liberu":{"name":"crm-lead-capture"}},
+    "require": {
+        "liberusoftware/module-organizations-teams": "^1.0"
+    }
+}
